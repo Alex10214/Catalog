@@ -8,6 +8,13 @@ import { AppComponent } from './app.component';
 import { MainLayoutComponent } from './shared/components/main-layout/main-layout.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import {AuthorizedModule} from './ authorized-directory/authorized.module';
+import {PageCatalogModule} from './ authorized-directory/page-catalog/page-catalog.module';
+import {PagePostModule} from './ authorized-directory/page-post/page-post.module';
+import {PageCreatePostModule} from './ authorized-directory/page-create-post/page-create-post.module';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {ReactiveFormsModule} from '@angular/forms';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,14 @@ import {AuthorizedModule} from './ authorized-directory/authorized.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    AuthorizedModule
+    AuthorizedModule,
+    PageCatalogModule,
+    PagePostModule,
+    PageCreatePostModule,
+    MatFormFieldModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,2 +1,12 @@
-<h1>Authorized-layout</h1>
+<div class="container">
+  <nav>
+    <a routerLink="/admin"><h1>Catalog</h1></a>
+  </nav>
+
+  <mat-list role="list">
+    <mat-list-item role="listitem"><a [routerLink]="['catalog']">Catalog</a></mat-list-item>
+    <mat-list-item role="listitem" routerLinkActive="active"><a [routerLink]="['create']">Create</a></mat-list-item>
+    <mat-list-item role="listitem"><a href="#" (click)="logout($event)">Log out</a></mat-list-item>
+  </mat-list>
+</div>
 <router-outlet></router-outlet>

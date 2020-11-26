@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55920bab-af02-4315-b859-7ad35eade57a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/page-create-post/page-create-post.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/page-post/page-post.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/authorized.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/authorized.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/ authorized-directory/shared/authorized-layout/authorized-layout.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/shared/components/main-layout/main-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/shared/components/main-layout/main-layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/app/shared/components/main-layout/main-layout.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/app/shared/components/main-layout/main-layout.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +63,12 @@
     <property name="ts.external.directory.path" value="C:\Users\38093\Desktop\Catalog\catalog\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38093\Desktop\Catalog\catalog\src\app\ authorized-directory\page-post" />
+      <recent name="C:\Users\38093\Desktop\Catalog\catalog\src\app\ authorized-directory\page-create-post" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\38093\Desktop\Catalog\catalog\src\app\ authorized-directory\page-catalog" />
       <recent name="C:\Users\38093\Desktop\Catalog\catalog\src\app\ authorized-directory\shared" />
       <recent name="C:\Users\38093\Desktop\Catalog\catalog\src\app\ authorized-directory" />
     </key>
@@ -72,7 +86,23 @@
       <workItem from="1606334455360" duration="1795000" />
       <workItem from="1606336263887" duration="1793000" />
       <workItem from="1606338079857" duration="1797000" />
-      <workItem from="1606339891075" duration="466000" />
+      <workItem from="1606339891075" duration="1313000" />
+      <workItem from="1606378952421" duration="1791000" />
+      <workItem from="1606380757610" duration="1340000" />
+      <workItem from="1606382110141" duration="1798000" />
+      <workItem from="1606387867415" duration="1789000" />
+      <workItem from="1606389674083" duration="1798000" />
+      <workItem from="1606391487982" duration="1558000" />
+      <workItem from="1606393212626" duration="1226000" />
+      <workItem from="1606394509694" duration="551000" />
+      <workItem from="1606395071617" duration="1351000" />
+      <workItem from="1606396468798" duration="1914000" />
+      <workItem from="1606398400157" duration="1792000" />
+      <workItem from="1606400208572" duration="619000" />
+      <workItem from="1606402017640" duration="1464000" />
+      <workItem from="1606403492888" duration="1795000" />
+      <workItem from="1606405307118" duration="1465000" />
+      <workItem from="1606407535133" duration="17000" />
     </task>
     <servers />
   </component>
@@ -92,10 +122,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606338778545">
+    <state x="395" y="96" key="#Inspections" timestamp="1606393748651">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606338778545" />
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1606393748651" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606403507655">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606403507655" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1606334294116">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -1,1 +1,27 @@
-<p>login-page works!</p>
+<form class="example-form" [formGroup]="form" (ngSubmit)="submit()">
+  <h2>Login</h2>
+  <div class="controls" [ngClass]="{invalid: form.get('email').touched && form.get('email').invalid}">
+    <mat-form-field class="example-full-width">
+      <mat-label>Enter your email</mat-label>
+      <label>
+        <input matInput placeholder="Email" type="text" formControlName="email">
+        <div class="validators" *ngIf="form.get('email').touched && form.get('email').invalid">
+          <mat-error *ngIf="form.get('email').errors.email">Incorrect email</mat-error>
+        </div>
+      </label>
+    </mat-form-field>
+  </div>
+
+  <div class="controls">
+    <mat-form-field class="example-full-width">
+      <mat-label>Enter your password</mat-label>
+      <label>
+        <input matInput placeholder="Password" type="password" formControlName="password">
+      </label>
+    </mat-form-field>
+  </div>
+
+  <mat-error>Invalid login or password.</mat-error>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">Login</button>
+</form>
